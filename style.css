@@ -1,0 +1,55 @@
+.BreakTimer{
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #5105b3;
+    /*text-align: center;*/
+    transform: top 80px;
+    
+}
+.Break{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-top: 30%;
+    /*margin-top: 90px;*/
+    
+}
+body{
+    background-image: url("hero-interior.png");
+    background-color: black;
+}
+button{
+    background-color: rgb(225, 0, 255);
+    font-size: larger;
+    border: 2px solid whitesmoke;
+    width: 15%;
+    margin-bottom: -80px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    border-radius: 12px;
+    align: center;
+    
+}
+button:hover{
+    background-color:rgb(190, 102, 207);
+    color: white;
+}
+.waterbreak{
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #5105b3; 
+    text-align: center;
+}
+#water{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 90px;
+}
+.circle {
+    background: lightblue;
+    border-radius: 50%;
+    width: 300px;
+    height: 250px;
+}

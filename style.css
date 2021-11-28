@@ -3,17 +3,10 @@
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     color: #5105b3;
-    /*text-align: center;*/
-    transform: top 80px;
-    
-}
-.Break{
-    font-size: large;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    padding-top: 30%;
-    /*margin-top: 90px;*/
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float:left;
 }
 body{
     background-image: url("hero-interior.png");
@@ -21,14 +14,15 @@ body{
 }
 button{
     background-color: rgb(225, 0, 255);
-    font-size: larger;
+    font-size: large;
     border: 2px solid whitesmoke;
-    width: 15%;
-    margin-bottom: -80px;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-    border-radius: 12px;
-    align: center;
-    
+    width: 10.5%;
+    margin-bottom: -30px;
+    box-shadow: 0 8px 10px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    display:flex;
 }
 button:hover{
     background-color:rgb(190, 102, 207);
@@ -40,12 +34,16 @@ button:hover{
     font-weight: bold;
     color: #5105b3; 
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float:right;
+    margin-bottom: 100px;
 }
 #water{
     font-size: large;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    margin-top: 90px;
 }
 .circle {
     background: lightblue;

@@ -11,6 +11,8 @@
 body{
     background-image: url("hero-interior.png");
     background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 button{
     background-color: rgb(225, 0, 255);
@@ -38,9 +40,15 @@ button:hover{
     justify-content: center;
     align-items: center;
     float:right;
-    margin-bottom: 100px;
+    margin-right: 13%;
+    margin-top: 2%;
 }
 #water{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+#water2{
     font-size: large;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
@@ -48,6 +56,9 @@ button:hover{
 .circle {
     background: lightblue;
     border-radius: 50%;
-    width: 300px;
-    height: 250px;
+    width: 437px;
+    height: 437px;
+}
+.align {
+    /*display: flex;*/
 }

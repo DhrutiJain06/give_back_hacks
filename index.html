@@ -6,38 +6,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Give Back Hacks 2</title>
+    <script src="script.js" async></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
-    <div class="BreakTimer circle">
+  <!--<span class="align">-->
+    <div class="BreakTimer circle" style="transform: translate(300px, 150px);">
+      <span id="atimer">00:00&nbsp;</span>
     <label for="breaktimer" class="Break">Break Timer &nbsp;</label>
 
 <select name="breaktimer" id="water">
-  <option value="5Mins">5 Minutes</option>
-  <option value="10Mins">10 Minutes</option>
-  <option value="20Mins">20 Minutes</option>
-  <option value="30Mins">30 Minutes</option>
-  <option value="40Mins">40 Minutes</option>
-  <option value="50Mins">50 Minutes</option>
-  <option value="60Mins">60 Minutes</option>
-</select>
+  <option value="5">5 Minutes</option>
+  <option value="10">10 Minutes</option>
+  <option value="20">20 Minutes</option>
+  <option value="30">30 Minutes</option>
+  <option value="40">40 Minutes</option>
+  <option value="50">50 Minutes</option>
+  <option value="60">60 Minutes</option>
+</select><br />
      </div>
-<br></br>
-<button type="button">START</button>
-<br></br>
-  <div class="waterbreak circle">
+     <button type="button" onclick="callTimer()" style="transform: translate(-20px, 630px);">START</button>
+  <div class="waterbreak circle" style="transform: translate(-200px, 100px);">
+    <span id="btimer">00:00&nbsp;</span>
     <label for="waterbreak">Water Break &nbsp;</label>
 
-    <select name="waterbreak" id="water">
-      <option value="5Mins">5 Minutes</option>
-      <option value="10Mins">10 Minutes</option>
-      <option value="20Mins">20 Minutes</option>
-      <option value="30Mins">30 Minutes</option>
-      <option value="40Mins">40 Minutes</option>
-      <option value="50Mins">50 Minutes</option>
-      <option value="60Mins">60 Minutes</option>
+    <select name="waterbreak" id="water2">
+      <option value="5">5 Minutes</option>
+      <option value="10">10 Minutes</option>
+      <option value="20">20 Minutes</option>
+      <option value="30">30 Minutes</option>
+      <option value="40">40 Minutes</option>
+      <option value="50">50 Minutes</option>
+      <option value="60">60 Minutes</option>
     </select>
   </div>
-  <br></br>
-  <button type="button">START</button>
+  <button type="button" onclick="callTimerB()" style="transform: translate(720px, 620px);"</button>START</button>
+  <!--</span>-->
 </body>
 </html>
